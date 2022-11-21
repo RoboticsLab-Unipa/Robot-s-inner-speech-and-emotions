@@ -54,7 +54,7 @@ You can find more information about at <https://pypi.org/project/PyQt5/>
 If you want to make changes in the simulation GUI, you have to install the Qt Designer Interface. You can find here at site <https://www.qt.io/download>
 
 
-###1.1 Make the bridge between python versions
+### 1.1 Make the bridge between python versions
 Pay attention to the Python Bridge: the project require python 2.7 to make robot alive, because the naoqi API run over that python version. So, you have to configure your application environment to python 2.7 and put there the <b>model</b> directory.
 
 The graphic interface of the simulation run over python 3 (every version) because PyQt5 require that python version. So, you have to setting up your environment to that python version.
@@ -64,7 +64,7 @@ Once you have done it, you can make the communication between the two interprete
 
     /utilities/Utils.py
 
-###1.2 Setting up the Knowledge
+### 1.2 Setting up the Knowledge
 If you want to change the ontology in the project, you may change the file at:
 
     /resources/kb/onto_tavola_eng.owl
@@ -75,7 +75,7 @@ With the ontology, you have to change the pixels point of the dishes in the simu
 
     /resources/points.txt
 
-###1.3 Setting up the Appraisal Module
+### 1.3 Setting up the Appraisal Module
 The project can evaluate all 28 emotion from the Russell's Circumplex Model, but this version of the model considers only the 5 primary emotion by 
 Ekman's theory. If you want to evaluate other emotions, you have to view the CSV file of Russell's emotions available at:
 
