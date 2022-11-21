@@ -2,7 +2,7 @@
 The repository was built as additional material of the paper entitled
 "Robots think out loud and feel emotions" by Arianna Pipitone, Sophia Corvaia and Antonio Chella submitted to the IEEE Transactions on Affective Computing journal.
 
-The framework provides the robot with the ability to appraise the context by the inner speech (the self-dialogue implemented by the inner speech cognitive architecture [1]) and to elicit an emotion related to the context. The emotion emerges by projecting the appraisal variables (that are mathematically formalized as described in the paper) into the Russell's space.  
+The framework provides the robot with the ability to appraise the context by the inner speech (the self-dialogue implemented by the inner speech cognitive architecture [1]) and to elicit an emotion related to the appraised context. The emotion emerges by projecting the appraisal variables (that are mathematically formalized as described in the paper) into the Russell's space.  
 
 The repository contains the Python scripts implementing the proposed model of the tight link between inner speech and emotions, and the needed resources for running it (the knowledge model and the xml description of the parameters for the appraisal variables).
  
@@ -13,7 +13,7 @@ To run the provided framework, the NaoQi 2.5 have to be installed, and you can d
 [1] Pipitone A., Chella A. What robots want? Hearing the inner voice of a robot
 iScience, Volume 24, Issue 4, 2021, Article 102371
 
-Running Emotional Modal Model on Robot
+Running the model on real robot
 ==========================================
 
 Prerequisites
