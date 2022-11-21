@@ -12,7 +12,7 @@ from sys import float_info, exit
 
 from utilities.Utils import PythonBridge, text_to_dict
 from utilities.global_params import *
-from modal_model import execute_loop
+from model import execute_loop
 
 
 # Global variables
@@ -25,8 +25,8 @@ item_over = None
 
 
 def call_to_help():
-    # pepper_bridge = PythonBridge(version=2.7, file='modal_model')
-    # print("Modal Model says: " + str(pepper_bridge.call_method('execute_loop', [state, occupied, True])))
+    # pepper_bridge = PythonBridge(version=2.7, file='model')
+    # print("Model says: " + str(pepper_bridge.call_method('execute_loop', [state, occupied, True])))
     missing = []
     pieces = []
     for value in occupied.values():
@@ -47,8 +47,8 @@ def call_to_help():
 
 
 def stop_simulation():
-    # last_bridge = PythonBridge(version=2.7, file='modal_model')
-    # print("Modal Model says: " + str(last_bridge.call_method('execute_loop', [state, occupied])))
+    # last_bridge = PythonBridge(version=2.7, file='model')
+    # print("Model says: " + str(last_bridge.call_method('execute_loop', [state, occupied])))
     exit('You stopped the simulation!')
 
 
@@ -175,7 +175,7 @@ class DraggableItem(QLabel):
             else:
                 self.move_to_closer_point()
 
-        # Start Modal Model Cycle
+        # Start Model Cycle
         self.thread = Thread(target=execute_loop, args=(self.label, state, occupied))
         self.thread.start()
 
