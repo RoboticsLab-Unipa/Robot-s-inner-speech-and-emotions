@@ -1,0 +1,13 @@
+Appetizer Fork:591,195
+Plate:591,195
+Bread Plate:446,51
+Spoone:688,67
+Dessert Fork:684,117
+Water:902,62
+Wine:1039,8
+Appetizer Fork:400,239
+Fork:467,219
+Second Fork:539,219
+Knife:984,216
+Appetizer Knife:1047,216
+Napkin:1104,271

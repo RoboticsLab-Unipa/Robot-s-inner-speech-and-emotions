@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<root>
+	<emotion name="Angry">
+		<intensity>4.512055046365087</intensity>
+	</emotion>
+	<emotion name="Sad">
+		<intensity>3.885667863197372</intensity>
+	</emotion>
+	<emotion name="Happy">
+		<intensity>3.3415567456865523</intensity>
+	</emotion>
+	<emotion name="Afraid">
+		<intensity>4.387485827828359</intensity>
+	</emotion>
+	<emotion name="Annoyed">
+		<intensity>4.549055774574677</intensity>
+	</emotion>
+</root>

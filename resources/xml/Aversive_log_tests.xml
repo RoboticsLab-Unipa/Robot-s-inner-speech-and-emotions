@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<simulation>
+
+    <test name="Aversive-Start">
+        <likelihood>0.66</likelihood>
+        <battery>0.8</battery>
+        <temperature>1</temperature>
+        <noise>0</noise>
+        <human>
+            <expression>joy</expression>
+            <vocal>calm</vocal>
+        </human>
+        <item name="Vino">
+            <position>Acqua</position>
+            <move>1</move>
+            <subject>Pepper</subject>
+        </item>
+    </test>
+
+    <test name="Aversive-Middle">
+        <likelihood>0.33</likelihood>
+        <battery>0.8</battery>
+        <temperature>1</temperature>
+        <noise>0</noise>
+        <human>
+            <expression>joy</expression>
+            <vocal>calm</vocal>
+        </human>
+        <item name="Vino">
+            <position>Piattino per il pane</position>
+            <move>0</move>
+            <subject>Pepper</subject>
+        </item>
+    </test>
+
+    <!--<test name="Aversive-Good">
+        <likelihood>1</likelihood>
+        <battery>0.8</battery>
+        <temperature>1</temperature>
+        <noise>0</noise>
+        <human>
+            <expression>joy</expression>
+            <vocal>calm</vocal>
+        </human>
+        <item name="Vino">
+            <position>Vino</position>
+            <move>0</move>
+            <subject>Pepper</subject>
+        </item>
+    </test>-->
+
+    <test name="Aversive-Bad">
+        <likelihood>0</likelihood>
+        <battery>0.8</battery>
+        <temperature>1</temperature>
+        <noise>0</noise>
+        <human>
+            <expression>joy</expression>
+            <vocal>calm</vocal>
+        </human>
+        <item name="Vino">
+            <position>Piattino per il pane</position>
+            <move>0</move>
+            <subject>Pepper</subject>
+        </item>
+    </test>
+
+</simulation>

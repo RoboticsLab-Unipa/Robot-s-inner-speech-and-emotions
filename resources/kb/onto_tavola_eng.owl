@@ -1,0 +1,1342 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#"
+     xml:base="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Etiquette_rule -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Etiquette_rule"/>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#General_rule -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#General_rule"/>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#by -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#by">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Position"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#PhysicalState"/>
+        <rdfs:comment>by</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#down -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#down">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Etiquette_rule"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#fork_glass -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#fork_glass">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#down"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#fork"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#glass"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#fork_plate -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#fork_plate">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#left"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#fork"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#plate"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#glass_fork -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#glass_fork">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#up"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#glass"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#fork"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#glass_knife -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#glass_knife">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#up"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#glass"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#knife"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#glass_plate -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#glass_plate">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#up"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#glass"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#plate"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#glass_spoon -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#glass_spoon">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#up"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#glass"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#spoon"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#has_material -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#has_material">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Utensil"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Material"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#is_possible -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#is_possible">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#General_rule"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#knife_glass -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#knife_glass">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#down"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#knife"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#glass"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#knife_spoon -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#knife_spoon">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#right"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#knife"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#spoon"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#left -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#left">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Etiquette_rule"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#likelihood -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#likelihood">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#StressfulEvent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#napkin_plate -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#napkin_plate">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#on"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#noise -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#noise">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Request"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Noise"/>
+        <rdfs:comment>noise</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#on -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#on">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Etiquette_rule"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#pick_object -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#pick_object">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#is_possible"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#pick"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#fork"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#glass"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#knife"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#plate"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#spoon"/>
+        <rdfs:comment>&quot;Aspetta, lo (knife) devo pick dal manico altrimenti mi taglio&quot;
+&quot;Devo pick la fork dal manico per non pungermi&quot;
+&quot;Ho paura di tagliarmi se lo (knife) prendo male&quot;</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#place_object -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#place_object">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#is_possible"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#place"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#fork"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#glass"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#knife"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#plate"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#spoon"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#plate_fork -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#plate_fork">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#right"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#plate"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#fork"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#plate_glass -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#plate_glass">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#down"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#plate"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#glass"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#plate_spoon -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#plate_spoon">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#left"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#plate"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#spoon"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#position -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#position">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Request"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Position"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#put_object -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#put_object">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#is_possible"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#put"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#fork"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#glass"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#knife"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#plate"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#spoon"/>
+        <rdfs:comment>&quot;Devo poggiarlo (fork, knife, spoon) con il manico verso il basso&quot;</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#right -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#right">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Etiquette_rule"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#spoon_glass -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#spoon_glass">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#down"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#spoon"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#glass"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#spoon_knife -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#spoon_knife">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#left"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#spoon"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#knife"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#spoon_plate -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#spoon_plate">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#right"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#spoon"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#plate"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#spostare_object -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#spostare_object">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#is_possible"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#move"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#fork"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#glass"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#knife"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#plate"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#spoon"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#up -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#up">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Etiquette_rule"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#voice -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#voice">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Request"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Voice"/>
+        <rdfs:comment>voice</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#dangerous -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#dangerous">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#knife"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#fragile -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#fragile">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#glass"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#plate"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#likelihood -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#likelihood">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#sharp -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#sharp">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#knife"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#state -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#state">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#PhysicalState"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#AbstractPlan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#AbstractPlan">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Plan"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Action -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Action">
+        <rdfs:comment>action</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Afraid -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Afraid">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#EmotionalState"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Angry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Angry">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#EmotionalState"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Annoyed -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Annoyed">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#EmotionalState"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Attention -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Attention">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#CognitiveProcess"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Audition -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Audition">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Perception"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#BackPropagation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#BackPropagation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#CognitiveProcess"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Basket -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Basket">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Forniture"/>
+        <rdfs:comment>basket</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Battery -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Battery">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#PhysicalState"/>
+        <rdfs:comment>battery</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Cam -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Cam">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#PhysicalState"/>
+        <rdfs:comment>cam</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#CognitiveProcess -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#CognitiveProcess"/>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Comprehension -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Comprehension">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#CognitiveProcess"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#DomainKnowledge -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#DomainKnowledge">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Knowledge"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#EmotionalState -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#EmotionalState">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Sensing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Environment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Environment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Sensing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Episodic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Episodic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Memory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Event -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Event"/>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#ExternalAttention -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#ExternalAttention">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Attention"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Externalisation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Externalisation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#CognitiveProcess"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Face -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Face">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Face"/>
+                    <owl:Class>
+                        <owl:oneOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#negative"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#neutral"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#positive"/>
+                        </owl:oneOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Environment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Forniture -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Forniture">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Object"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Happy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Happy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#EmotionalState"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#InnerAction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#InnerAction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Action"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#InnerAttention -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#InnerAttention">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Attention"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#InnerKnowledge -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#InnerKnowledge">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Knowledge"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#InnerQuery -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#InnerQuery">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#MetacognitiveProcess"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#InnerState -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#InnerState">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#CognitiveProcess"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Knowledge -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Knowledge"/>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Left_arm -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Left_arm">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#PhysicalState"/>
+        <rdfs:comment>left arm</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Left_eye -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Left_eye">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#PhysicalState"/>
+        <rdfs:comment>left eye</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Long-term -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Long-term">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Memory"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Material -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Material"/>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Memory -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Memory"/>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#MetacognitiveProcess -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#MetacognitiveProcess"/>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Noise -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Noise">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#no"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#noisy"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#very_noisy"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Environment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Object -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Object"/>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Perception -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Perception">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#CognitiveProcess"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#PhysicalState -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#PhysicalState">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Sensing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Plan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Plan"/>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Planning -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Planning">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#MetacognitiveProcess"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Position -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Position">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#left_box"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#right_box"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:comment>with position {}</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Prevision -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Prevision">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#MetacognitiveProcess"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Priming -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Priming">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#MetacognitiveProcess"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Proprioception -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Proprioception">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Perception"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#ReactiveAction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#ReactiveAction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Action"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#ReactivePlan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#ReactivePlan">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Plan"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Request -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Request">
+        <rdfs:comment>Request for</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#ResultControl -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#ResultControl">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#MetacognitiveProcess"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Revision -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Revision">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#MetacognitiveProcess"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Right_arm -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Right_arm">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#PhysicalState"/>
+        <rdfs:comment>right arm</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Right_eye -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Right_eye">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#PhysicalState"/>
+        <rdfs:comment>right eye</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Sad -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Sad">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#EmotionalState"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Sensing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Sensing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#CognitiveProcess"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Sensor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Sensor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Perception"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#StressfulEvent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#StressfulEvent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Event"/>
+        <rdfs:comment>Stressful event</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#SymbolicInput -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#SymbolicInput">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Perception"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Table -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Table">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Forniture"/>
+        <rdfs:comment>table</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Tablet -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Tablet">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#PhysicalState"/>
+        <rdfs:comment>tablet</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Temperature -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Temperature">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#PhysicalState"/>
+        <rdfs:comment>temperature</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Touch -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Touch">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Perception"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Transfer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Transfer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#MetacognitiveProcess"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Utensil -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Utensil">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Object"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Vision -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Vision">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Perception"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Voice -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Voice">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Voice"/>
+                    <owl:Class>
+                        <owl:oneOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#negative"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#neutral"/>
+                            <rdf:Description rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#positive"/>
+                        </owl:oneOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Environment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#WorkCondition -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#WorkCondition">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Event"/>
+        <rdfs:comment>Work condition</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#appetizer_fork -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#appetizer_fork">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Utensil"/>
+        <rdfs:comment>appetizer fork</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#appetizer_knife -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#appetizer_knife">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Utensil"/>
+        <rdfs:comment>appetizer knife</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#appetizer_plate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#appetizer_plate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Utensil"/>
+        <rdfs:comment>appetizer plate</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#bread_plate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#bread_plate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Utensil"/>
+        <rdfs:comment>bread plate</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#crystal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#crystal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Material"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#dessert_fork -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#dessert_fork">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Utensil"/>
+        <rdfs:comment>dessert fork</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#fork -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#fork">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Utensil"/>
+        <rdfs:comment>fork</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#glass -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#glass">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Utensil"/>
+        <rdfs:comment>glass</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#id_0 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#id_0">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#StressfulEvent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#id_1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#id_1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#StressfulEvent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#id_2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#id_2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#StressfulEvent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#id_3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#id_3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#StressfulEvent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#knife -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#knife">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Utensil"/>
+        <rdfs:comment>knife</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#move -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#move">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#ReactiveAction"/>
+        <rdfs:comment>move</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#napkin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#napkin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Utensil"/>
+        <rdfs:comment>napkin</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#pick -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#pick">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#ReactiveAction"/>
+        <rdfs:comment>pick</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#place -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#place">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#ReactiveAction"/>
+        <rdfs:comment>place</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#plastic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#plastic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Material"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#plate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#plate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Utensil"/>
+        <rdfs:comment>plate</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#put -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#put">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#ReactiveAction"/>
+        <rdfs:comment>put</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#second_fork -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#second_fork">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Utensil"/>
+        <rdfs:comment>second fork</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#silver -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#silver">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Material"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#spoon -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#spoon">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Utensil"/>
+        <rdfs:comment>spoon</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#steel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#steel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Material"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#take -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#take">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#ReactiveAction"/>
+        <rdfs:comment>take</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#water -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#water">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Utensil"/>
+        <rdfs:comment>water</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#wine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#wine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Utensil"/>
+        <rdfs:comment>wine</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#glass:material -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#glass:material">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Material"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#cold -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#cold">
+        <state>cold</state>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#correct -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#correct"/>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#hot -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#hot">
+        <state>hot</state>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#left_box -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#left_box">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Position"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#negative -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#negative"/>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#neutral -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#neutral"/>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#no -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#no"/>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#noisy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#noisy"/>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#positive -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#positive"/>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#right_box -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#right_box">
+        <rdf:type rdf:resource="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#Position"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#very_noisy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#very_noisy"/>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#warm -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#warm">
+        <state>warm</state>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#wrong -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#wrong"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/alessandro/ontologies/2020/1/untitled-ontology-8#likelihood">
+        <rdfs:comment>Event Likelihood</rdfs:comment>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

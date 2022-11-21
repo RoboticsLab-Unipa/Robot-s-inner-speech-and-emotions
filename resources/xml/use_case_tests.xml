@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<simulation>
+    <!--<test name="Use Case 1">
+        <likelihood>0.8</likelihood>
+        <battery>0.8</battery>
+        <temperature>1</temperature>
+        <noise>0.5</noise>
+        <human>
+            <expression>none</expression>
+            <vocal>anger</vocal>
+        </human>
+        <item name="Piattino per il pane">
+            <position>Acqua</position>
+            <move>1</move>
+            <subject>Pepper</subject>
+        </item>
+    </test>-->
+
+    <test name="Use Case 2">
+        <likelihood>0.2</likelihood>
+        <battery>0.65</battery>
+        <temperature>1</temperature>
+        <noise>1</noise>
+        <human>
+            <expression>none</expression>
+            <vocal>none</vocal>
+        </human>
+        <item name="Vino">
+            <position>Vino</position>
+            <move>0</move>
+            <subject>User</subject>
+        </item>
+    </test>
+</simulation>
