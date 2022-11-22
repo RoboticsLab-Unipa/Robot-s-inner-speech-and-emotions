@@ -1,5 +1,6 @@
 
-#Robot's Inner Speech and Emotions
+Robot's Inner Speech and Emotions
+===========================================
 
 The repository was built as additional material of the paper entitled
 "Robot's inner speech and emotions" by Arianna Pipitone, Sophia Corvaia and Antonio Chella submitted to the IEEE Transactions on Affective Computing journal.
