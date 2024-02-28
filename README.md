@@ -3,7 +3,7 @@ Robot's Inner Speech and Emotions
 ===========================================
 
 The repository was built as additional material of the paper entitled
-"Robot's inner speech and emotions" by Arianna Pipitone, Sophia Corvaia and Antonio Chella submitted to the IEEE Transactions on Affective Computing journal.
+"Robot's inner speech and emotions" by Arianna Pipitone, Sophia Corvaia and Antonio Chella .
 
 The framework provides the robot with the ability to appraise the context by the inner speech (the self-dialogue implemented by the inner speech cognitive architecture [1]) and to elicit an emotion related to the appraised context. The emotion emerges by projecting the appraisal variables (that are mathematically formalized as described in the paper) into the Russell's space.  
 
